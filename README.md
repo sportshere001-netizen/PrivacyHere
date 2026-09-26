@@ -15,7 +15,12 @@ Because OEM security daemons (like Xiaomi's Security Center and Samsung Knox) ac
 
 1. Factory reset your Android device.
 2. On the initial "Hello / Welcome" setup screen, tap the empty space **6 times**.
-3. Connect to Wi-Fi and scan the PrivacyHere Enterprise Provisioning QR Code.
+3. Connect to Wi-Fi and scan the PrivacyHere Enterprise Provisioning QR Code:
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ecbae431-1a88-401c-80ef-184f2bb54b8f" width="280" alt="PrivacyHere Provisioning QR Code" />
+</p>
+
 4. The OS will download the APK, verify its SHA-256 checksum, and statically compile it as the Device Owner before OEM security daemons can boot.
 
 ## ⚖️ Legal Disclaimer
